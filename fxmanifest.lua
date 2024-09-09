@@ -2,15 +2,15 @@ fx_version 'cerulean'
 
 game 'gta5'
 
-author 'sams(Blank not found)'
+author 'MinoSuve'
 
 description 'sams-Aircraft heist'
 
 version '0.1'
 
 client_scripts{
-    'client.lua',
-    '@PolyZone/client.lua',
+    	'client.lua',
+    	'@PolyZone/client.lua',
 	'@PolyZone/BoxZone.lua',
 	'@PolyZone/EntityZone.lua',
 	'@PolyZone/CircleZone.lua',
