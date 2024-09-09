@@ -53,20 +53,6 @@ RegisterNetEvent('qb-aircraftheist:server:removeElectronicKit', function()
     TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["electronickit"], "remove")
 end)
 
---local function cooldown()
-    --local cdll = MySQL.Sync.fetchAll('SELECT * FROM tyam', {})
-    --for _, v in pairs(cdll) do
-        --local time = {}
-        --end
-        --Races[v.time] = {
-            --hittime = v.hittime,
-            --hitId = v.hitid,
-            --Started = false,
-           -- Waiting = false,
-        --}
-    --end
---end
-
 RegisterNetEvent('qb-aircraftheist:server:setfuel', function(veh)
     if Config.Fuel == "LegacyFuel" then
         exports["LegacyFuel"]:SetFuel(veh, 100.0)
