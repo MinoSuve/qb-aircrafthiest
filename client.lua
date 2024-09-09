@@ -188,50 +188,6 @@ CreateThread(function()
         })
 end)
 
-
--- CreateThread(function()
---     exports['qb-target']:AddBoxZone("human-boss", vector3(632.72, -3015.35, 6.34), 1, 1, {
---         name="human-boss",
---         heading=3.39,
---         debugpoly = false,
---     }, {
---         options = {
---             {
---                 event = "qb-aircraft:client:getjob",
---                 icon = "far fa-phone",
---                 label = "Request Job",
---                 item = "phone",
---             },
---             {
---                 event = "qb-aircraft:client:EnterUSB",
---                 icon = "far fa-phone",
---                 label = "Recive Payment",
---                 item = "labs_usb",
---             },
---         },
---         distance = 1.5
---     })
-        
---     exports['qb-target']:AddBoxZone("Hack-aircraft", vector3(3084.24, -4685.79, 26.95), 1, 1, {
---         name="Hack-aircraft",
---         heading=25.0,
---         debugpoly = false,
---     }, {
---         options = {
---             {
---             event = "qb-aircraft:client:starthack",
---             icon = "far fa-usb",
---             label = "Hack System",
---             item = "electronickit",
---             },
---         },
---         distance = 1.5
---     })
--- end)
-
-
----- Funções
-
 labguards = {
     ['npcguards'] = {}
 }
