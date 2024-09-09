@@ -1,5 +1,6 @@
 Dependencies
 -Qb-core 
+-ox_lib
 -qb-menu 
 -ox_target
 -memorygame_2 by Nathan#8860 - https://github.com/Nathan-FiveM/memorygame_2
